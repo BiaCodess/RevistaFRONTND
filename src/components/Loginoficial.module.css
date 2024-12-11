@@ -1,10 +1,10 @@
 /* Container principal */
 .fundo {
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo na horizontal */
+    justify-content: center; 
     align-items: center; /* Centraliza o conteúdo na vertical */
-    min-height: 100vh; /* Garante que ocupe a altura total da tela */
-    background: linear-gradient(to bottom, #103a05, #000000); /* Degradê de verde para preto */
+    min-height: 100vh; 
+    background: linear-gradient(to bottom, #103a05, #000000); 
 
   }
   
@@ -13,9 +13,9 @@
     width: 100%;
     max-width: 400px; /* Largura máxima do quadrado */
     padding: 30px;
-    background-color: #ffffff; /* Cor de fundo do quadrado */
+    background-color: #ffffff; 
     border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras sutis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,7 @@
   .quadrado .form-group {
     width: 100%;
     margin-bottom: 15px;
-    text-align: left; /* Alinha o rótulo à esquerda */
+    text-align: left; 
   }
   
   .quadrado .form-group label {
@@ -53,12 +53,12 @@
   }
   
   .quadrado .form-group input:focus {
-    border-color: #28A745; /* Cor de borda ao focar no campo */
+    border-color: #28A745; 
   }
   
   /* Estilo do botão "Entrar" */
   .quadrado button[type="submit"] {
-    width: 100%; /* O botão ocupa toda a largura do quadrado */
+    width: 100%; 
     padding: 10px;
     background-color: #28A745;
     color: white;
@@ -67,7 +67,7 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 20px; /* Adiciona um espaçamento superior ao botão */
+    margin-top: 20px; 
   }
   
   /* Estilo ao passar o mouse sobre o botão */
