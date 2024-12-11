@@ -156,7 +156,7 @@
   }
   /* Ajustando a altura da página para ter mais espaço */
 .pagina {
-    min-height: 150vh; /* Aumenta a altura mínima da página para 120% da tela */
+    min-height: 150vh; 
   }
 
   .titulo2{
