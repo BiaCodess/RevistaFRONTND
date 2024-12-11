@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, #103a05, #000000); /* Degradê de verde para preto */
+    background: linear-gradient(to bottom, #103a05, #000000); 
 }
   
   /* Menu */
@@ -13,9 +13,9 @@
     background-color: #000000;
     padding: 20px;
     display: flex;
-    justify-content: space-between; /* Distribui os elementos com espaço entre eles */
+    justify-content: space-between; 
     align-items: center; /* Alinha verticalmente os elementos */
-    position: relative; /* Garante o controle de posicionamento dos elementos filhos */
+    position: relative; 
   }
   
   .menu h1 {
@@ -25,7 +25,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     font-weight: 400;
-    position: absolute; /* Remove o título do fluxo normal */
+    position: absolute; 
     left: 50%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Ajusta para o centro real */
   }
@@ -37,8 +37,8 @@
   .iconePerfil {
     width: 40px; /* Tamanho do ícone */
     height: 40px;
-    border-radius: 50%; /* Torna o ícone circular */
-    cursor: pointer; /* Indica interatividade */
+    border-radius: 50%; 
+    cursor: pointer; 
   }
   
   
@@ -49,8 +49,8 @@
   .iconePerfil {
     width: 40px; /* Tamanho do ícone */
     height: 40px;
-    border-radius: 50%; /* Para fazer o ícone circular */
-    cursor: pointer; /* Para indicar interatividade */
+    border-radius: 50%; 
+    cursor: pointer; 
   }
   
   
@@ -59,7 +59,7 @@
 
   .imagem img {
     width: 100%; /* Faz a imagem ocupar toda a largura disponível */
-    height: 50vh; /* Mantém a proporção original da imagem */
+    height: 50vh; 
     object-fit: cover; /* Garante que a imagem cubra a área sem distorção */
   }
   
@@ -71,9 +71,9 @@
     font-size: 16px;
     color: #ffffff;
     text-align: center; /* Centraliza o texto */
-     font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
-    line-height: 1.6; /* Aumenta a altura da linha para uma leitura mais confortável */
-     max-width: 2000px; /* Limita a largura do parágrafo para maior legibilidade */
+     font-family: "Segoe UI", Tahoma, Geneva, sans-serif; 
+    line-height: 1.6; 
+     max-width: 2000px; 
      margin-left: 50px;
      margin-right: 50px;
   }
@@ -109,8 +109,8 @@
     color: #333;
     margin-bottom: 10px;
     font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Sombra suave para não pesar o visual */
-    font-weight: 400; /* Peso leve para um visual minimalista */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); 
+    font-weight: 400; 
   }
   
   /* Preço */
@@ -128,8 +128,8 @@
     margin-bottom: 20px;
     text-align: center;
     font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Sombra suave para não pesar o visual */
-    font-weight: 400; /* Peso leve para um visual minimalista */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); 
+    font-weight: 400; 
 
   }
   
@@ -161,8 +161,8 @@
 
   .titulo2{
     font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Sombra suave para não pesar o visual */
-    font-weight: 400; /* Peso leve para um visual minimalista */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); 
+    font-weight: 400; 
     color: yellow;
     font-size: 32px;
     margin-bottom: 10px;
