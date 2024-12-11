@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import styles from "./Login.module.css"; // Importando o CSS Module
 
 
-// Seu código continua igual
+
 function Login() {
     const [usuarios, setUsuarios] = useState("");
     const [id, setId] = useState("");
